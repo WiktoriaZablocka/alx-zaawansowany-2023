@@ -20,6 +20,8 @@ const products = [
 
 /* Za pomocą JS oblicz średnią cenę produktu oraz jego sumę produktow w koszyku. */
 
+
+
 let sumaZakupy = 0;
 
 for (let y of products) {
