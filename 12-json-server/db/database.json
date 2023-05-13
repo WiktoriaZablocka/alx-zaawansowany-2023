@@ -1,0 +1,36 @@
+{
+  "trains": [
+    {
+      "id": 1,
+      "from": "Warsaw",
+      "to": "Szczecin",
+      "name": "Sniezka",
+      "date": "13.05.2023",
+      "time": "14:41"
+    },
+    {
+      "from": "wroc",
+      "to": "ffdd",
+      "name": "elee",
+      "date": "dff",
+      "time": "dff",
+      "id": 2
+    },
+    {
+      "from": "warszawa",
+      "to": "poznan",
+      "name": "lucyna",
+      "date": "12.05.2023",
+      "time": "18:00",
+      "id": 3
+    },
+    {
+      "from": "ss",
+      "to": "aaa",
+      "name": "sss",
+      "date": "gfg",
+      "time": "gg",
+      "id": 4
+    }
+  ]
+}
