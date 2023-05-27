@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './index.css';
+import Chat from './Chat.js';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +29,10 @@ const tasks = [
   }
 ]
 
+// Stworz komponent Chat w pliku src/Chat.js i zaimportuj go do index.js.
+
+// Komponent Chat powinien zawierac formularz, skladacy sie z 2 pol (author i message).
+// Stworz interaktywny formularz i liste, gdzie uzytkownik bedzie mogl dodawac wiadomosci do chatu (i oczywiscie je czytac)
 
 const handleClick = () => {
   console.log('hej!');
@@ -35,7 +40,8 @@ const handleClick = () => {
 
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Chat/>
   </React.StrictMode>
 )
 
